@@ -28,16 +28,23 @@ namespace ProgrammingAssignment1
                 // course add more space between the
                 // comments as needed
 
-                string[] elements = new string[] { "H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", };
-
-                for(int i = 0; i < 10; i++)
-                {
-                    Console.WriteLine(elements[i]);
-                }
+                
 
                 // Don't add or modify any code below
                 // this comment
                 input = Console.ReadLine();
+            }
+        }
+
+        static void Code ()
+        {
+            return;
+
+            string[] elements = new string[] { "H", "He", "Li", "Be", "B", "C", "N", "O", "F", "Ne", };
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine(elements[i]);
             }
         }
     }
